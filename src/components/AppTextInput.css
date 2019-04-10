@@ -1,0 +1,25 @@
+.AppTextInput {
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.AppTextInput label {
+    line-height: inherit;
+    padding-right: 10px;
+    font: 20px;
+}
+.AppTextInput input {
+    height: inherit;
+    font-size: 24px;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: 1px solid #bbbbbb;
+}
+  
+input:focus {
+    outline:none;
+    border:#87C6F9 1px solid;
+    box-shadow: 0 0 8px #67A6D9; 
+}

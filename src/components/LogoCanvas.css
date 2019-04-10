@@ -1,0 +1,27 @@
+.Background {
+    background: black;
+    height: 480px;
+    width: 480px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.LeftText {
+    margin: 10px;
+    color: white;
+    font-size: 100px;
+}
+
+.RightText {
+    margin: 10px;
+    background: #FE9A00;
+    height: 128px;
+    padding: 8px;
+    color: black;
+    font-size: 100px;
+    border-radius: 8px;
+}

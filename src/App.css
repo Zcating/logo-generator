@@ -1,0 +1,43 @@
+.AppContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.AppHeader {
+  font-size: 30px;
+  height: 150px;
+  padding: 20px;
+  color: black;
+}
+
+.FirstInputs {
+  margin: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.FirstInputs .AppInput {
+  height: 50px;
+}
+
+.AppDownloadButton {
+  position: fixed;
+  bottom: 40px;
+  right: 60px;
+  width: 100px;
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid #aaaaaa;
+}
+
+.AppDownloadButton:focus {
+  outline: none;
+}
+
+.AppDownloadButton:hover {
+  background: #999999;
+}
